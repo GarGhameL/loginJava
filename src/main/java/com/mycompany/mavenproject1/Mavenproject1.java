@@ -10,7 +10,7 @@ public class Mavenproject1 {
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         User user = new User("usuario", "contrasena");
-
+        System.out.println("prueba");
         System.out.print("Ingrese su nombre de usuario: ");
         String inputUsername = scanner.nextLine();
         System.out.print("Ingrese su contraseña: ");
